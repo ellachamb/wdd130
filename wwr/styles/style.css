@@ -23,13 +23,13 @@ nav {
     align-self: center;
 }
 .home-title{
-    color:white;
+    color:#F1E8DD;
     font-family: Josefin Sans, Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
 h4{
-    color: white;
+    color: #F1E8DD;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
