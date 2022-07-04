@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Shrikhand&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+}
+#logo_link {
+    justify-self: center;
+    align-self: center;
+}
+nav a{
+    color: #697A21;
+    text-align: center;
+    text-decoration: none;
+    font-family: Josefin Sans, Arial, sans-serif;
+    padding: 40px; 
+}
+nav {
+    display: flex;
+    justify-content: space-around; 
+}
+.home-title{
+    color:#F1E8DD;
+    font-family: Josefin Sans, Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h4{
+    color: #F1E8DD;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+    font-family: Shrikhand, Arial, sans-serif;
+    background-color: #6f7364;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+    width: 100%; 
+    margin-bottom: 30px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1; 
+}
+#hero-msg { 
+    grid-column: 2/3; 
+    grid-row: 1/2;
+    margin-top: 100px; 
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+    font-family: Raleway, Arial, sans-serif;
+
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr)
+}
+body{
+    background-color: #FEFEE3; 
+    font-family: Raleway, arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0; 
+}
+.menu{
+    color: black; 
+    grid-column: 6/10; 
+    grid-row: 4/7; 
+    background-color: #D68C45;
+    font-family: Josefin Sans;
+}
+main h4 {
+    padding: 25px;
+    text-align: center;
+}
+header{
+    background-color: white; 
+    display: grid;
+    grid-template-columns: 150px auto;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+nav a:hover{ 
+    background-color: #D68C45;
+    color: #FEFEE3;
+}
+.book, .join {
+    background-color: #FFC9B9;
+    color: gray;
+    text-decoration:none;
+    font-family: Josefin Sans, arial, sans-serif;
+    font-size: 18px; 
+    padding: 15px 30px; 
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.home-title {
+    padding: 15px 30px; 
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover{
+    background-color: gray;
+    color: #FFC9B9; 
+}
+#background{
+    background-color: #FCF6BD;
+}
+.msg{
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px; 
+    grid-column: 6/10;
+    grid-row: 6/7; 
+    box-shadow: 5px 5px 10px #6f7364; 
+    margin-top: 60px;
+}
+.msg h2, .msg2 h2{
+    color:white;
+    font-family: Josefin Sans, arial, sans-serif;
+}
+.msg p, .msg2 p{
+    color:white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer{
+    background-color: #FEFEE3;
+    padding: 25px 50px;
+    margin-top: 100px; 
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+}
+footer h3{
+    color: black ; 
+    font-family: Josefin Sans, Arial, sans-serif;
+}
+footer a{
+    color: gray;
+    text-decoration: none;
+    font-family: Josefin Sans, arial, sans-serif;
+}
+footer a:hover{
+    color:#473335;
+}
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+.logo{
+    width: 150px; 
+}
+#logo_link {
+    padding-top: 5px;
+}
+#hero-img{
+    width: 100%
+}
+.home-title1 {
+    color: #473335;
+    text-align: center;
+    margin-left: 700px;
+    font-family: Shrikhand, Arial, sans-serif;
+    font-size: 40px;
+}
+h2 { 
+    margin: 0; 
+}
+footer .social img{
+    padding-top: 15px;
+}
+.card-img  {
+    width: 100%; 
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    #background {
+        display: none;
+    }
+    .granola, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+
+}
+.granola {
+    border: 10px solid #FFC9B9;
+    transition: transform .5s; 
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 50%; 
+    grid-column: 2/8;
+    grid-row: 2/9; 
+}
