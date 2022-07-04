@@ -48,7 +48,7 @@ h4{
 #hero-msg { 
     grid-column: 2/3; 
     grid-row: 1/2;
-    margin-top: 100px 
+    margin-top: 100px; 
 }
 .button-box{
     text-align: center;
@@ -130,11 +130,19 @@ nav a:hover{
     grid-row: 6/7; 
     box-shadow: 5px 5px 10px #6f7364; 
 }
-.msg h2{
+.msg2 {
+    background-color: #607466;
+    line-height: 1.5em;
+    padding: 35px; 
+    grid-column: 2/5;
+    grid-row: 6/7; 
+    box-shadow: 5px 5px 10px #6f7364; 
+}
+.msg h2, .msg2 h2{
     color:white;
     font-family: Josefin Sans, arial, sans-serif;
 }
-.msg p{
+.msg p, .msg2 p{
     color:white;
     font-size: .8em;
     padding-bottom: 15px;
@@ -171,6 +179,21 @@ footer a:hover{
 }
 #hero-img{
     width: 100%
+}
+#hero2-img{
+    width: 70%;
+    margin-top: 200px; 
+    border: 10px solid #607466;
+    transition: transform .5s; 
+    box-shadow: 5px 5px 10px #6f7364; 
+    margin-left: 250px
+}
+.home-title1 {
+    color: #473335;
+    text-align: center;
+    margin-left: 700px;
+    font-family: Shrikhand, Arial, sans-serif;
+    font-size: 40px;
 }
 h2 { 
     margin: 0; 
